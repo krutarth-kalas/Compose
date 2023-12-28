@@ -1,4 +1,4 @@
-package com.example.composeapp
+package com.example.composeapp.basicconcept
 
 import android.os.Bundle
 import android.widget.Toast

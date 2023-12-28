@@ -1,4 +1,4 @@
-package com.example.composeapp
+package com.example.composeapp.basicconcept
 
 import android.annotation.SuppressLint
 import android.os.Bundle
