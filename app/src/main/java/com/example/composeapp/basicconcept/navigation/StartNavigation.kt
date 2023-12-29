@@ -5,7 +5,6 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.composeapp.util.NavigationFactory
 
 @Composable
 fun StartNavigation(context: Activity){
@@ -16,7 +15,11 @@ fun StartNavigation(context: Activity){
             FirstScreen(navController)
         }
         composable(NavigationFactory.SecondScreen.route){
-            SecondScreen(context)
+            val data = it.arguments?.getString("data")
+            SecondScreen(context,navController,data)
+        }
+        composable(NavigationFactory.ThirdScreen.route){
+            ThirdScreen(context,navController)
         }
     }
 }
