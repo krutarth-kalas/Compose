@@ -69,4 +69,37 @@ dependencies {
     implementation("com.google.accompanist:accompanist-pager:0.20.2")
     implementation("com.google.accompanist:accompanist-pager-indicators:0.20.2")
     implementation("androidx.navigation:navigation-compose:2.7.6")
+
+    val voyagerVersion = "1.0.0"
+
+    // Navigator
+    implementation("cafe.adriel.voyager:voyager-navigator:$voyagerVersion")
+
+    // Screen Model
+    implementation("cafe.adriel.voyager:voyager-screenmodel:$voyagerVersion")
+
+    // BottomSheetNavigator
+    implementation("cafe.adriel.voyager:voyager-bottom-sheet-navigator:$voyagerVersion")
+
+    // TabNavigator
+    implementation("cafe.adriel.voyager:voyager-tab-navigator:$voyagerVersion")
+
+    // Transitions
+    implementation("cafe.adriel.voyager:voyager-transitions:$voyagerVersion")
+
+    // Android
+
+    // Koin integration
+    implementation("cafe.adriel.voyager:voyager-koin:$voyagerVersion")
+
+    // Hilt integration
+    implementation("cafe.adriel.voyager:voyager-hilt:$voyagerVersion")
+
+    // LiveData integration
+    implementation("cafe.adriel.voyager:voyager-livedata:$voyagerVersion")
+
+
+
+
+
 }
