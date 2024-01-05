@@ -70,7 +70,5 @@ class BottomSheetActivity : androidx.activity.ComponentActivity()
 
             }
         }
-
     }
-
 }
