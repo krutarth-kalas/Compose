@@ -44,9 +44,7 @@ fun AltertDialogScreen(){
 
 
     Column(
-        modifier = androidx.compose.ui.Modifier
-            .fillMaxSize()
-            .padding(),
+        modifier = androidx.compose.ui.Modifier.fillMaxSize().padding(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
